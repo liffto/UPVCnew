@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Layout from '../components/Layout';
 import { Product, SiteSettings } from '../types';
+import { NO_IMAGE_URL } from '../constants';
 import { ChevronLeft } from 'lucide-react';
 import { WhatsAppIcon } from '../components/IconRenderer';
 
@@ -99,6 +100,10 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ products, setting
                   key={activeImage} 
                   src={product.images[activeImage] || product.images[0]} 
                   alt={product.name} 
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = NO_IMAGE_URL;
+                  }}
                   className="max-w-full max-h-full object-contain transition-all duration-700 hover:scale-105" 
                 />
              </div>
@@ -112,7 +117,15 @@ const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ products, setting
                       className={`w-20 h-20 md:w-24 md:h-24 bg-white border-2 rounded-2xl p-2 overflow-hidden flex items-center justify-center cursor-pointer transition-all ${activeImage === i ? 'border-primary ring-4 ring-primary/10 shadow-lg' : 'border-gray-100 opacity-60 hover:opacity-100'}`}
                       aria-label={`View image ${i + 1}`}
                     >
-                      <img src={img} className="max-w-full max-h-full object-contain" alt="" />
+                      <img 
+                        src={img} 
+                        className="max-w-full max-h-full object-contain" 
+                        alt="" 
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.src = NO_IMAGE_URL;
+                        }}
+                      />
                     </button>
                   ))}
                </div>

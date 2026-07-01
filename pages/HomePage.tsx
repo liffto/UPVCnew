@@ -44,7 +44,7 @@ const HomePage: React.FC<HomePageProps> = ({ categories, catalogs, settings, tes
               key={idx}
               src={banner} 
               alt={`Hero Banner ${idx + 1}`} 
-              fetchpriority={idx === 0 ? "high" : "auto"}
+              fetchPriority={idx === 0 ? "high" : "auto"}
               decoding="async"
               className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${idx === activeBanner ? 'opacity-100' : 'opacity-0'}`}
             />

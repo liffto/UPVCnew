@@ -21,7 +21,7 @@ const NO_IMAGE_SVG = `
 </svg>
 `;
 
-const NO_IMAGE_URL = `data:image/svg+xml;base64,${btoa(NO_IMAGE_SVG)}`;
+export const NO_IMAGE_URL = `data:image/svg+xml;base64,${btoa(NO_IMAGE_SVG)}`;
 
 export const INITIAL_SETTINGS: SiteSettings = {
   whatsapp: '916382488657',
@@ -58,41 +58,41 @@ export const INITIAL_SETTINGS: SiteSettings = {
     { id: '5', iconName: 'BadgePercent', text: 'Most competitive pricing.' },
   ],
   certificates: [
-    'https://github.com/kavutham99raj-art/hitechupvc/blob/main/HITECH%20UPVC%20HARDWARES%20SCAN_page-0001.jpg?raw=true',
-    'https://github.com/kavutham99raj-art/hitechupvc/blob/main/GEM_page-0001.jpg?raw=true',
-    'https://github.com/kavutham99raj-art/hitechupvc/blob/main/HITECH%20UPVC_page-0001.jpg?raw=true'
+    'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/HITECH%20UPVC%20HARDWARES%20SCAN_page-0001.jpg',
+    'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/GEM_page-0001.jpg',
+    'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/HITECH%20UPVC_page-0001.jpg'
   ]
 };
 
 export const INITIAL_CATEGORIES: Category[] = [
-  { id: 'C001', name: 'Drilling screws MS & SS', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Frame%20Fixing%20Fasteners%20(1).png?raw=true' },
-  { id: 'C002', name: 'SS mesh', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/SS%20Mesh%20(1).png?raw=true' },
-  { id: 'C003', name: 'Espags', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Casement%20esparg%2022mm%20Back%20set%20(1).png?raw=true' },
-  { id: 'C004', name: 'Sliding door sets', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Sliding%20Door%20Set%20-%20D%20Handle%20(1).png?raw=true' },
-  { id: 'C005', name: 'Casement door sets', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Casement%20Door%20Set%20-%20Regular%20(1).png?raw=true' },
-  { id: 'C006', name: 'Casement handle', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Casement%20Handle%20Spindle%20(1).png?raw=true' },
-  { id: 'C006.5', name: 'Plastic items', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Anti%20lift%20Block.png?raw=true' },
-  { id: 'C007', name: 'Sliding handles', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Popup%20Handle%20WH.png?raw=true' },
-  { id: 'C008', name: 'Tools', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Gasket%20Mesh%20Tool.png?raw=true' },
-  { id: 'C009', name: 'Gaskets', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Gasket%20Mesh%20Tool%20(1).png?raw=true' },
-  { id: 'C0010', name: 'Cylinders', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Cylinder%20(1).png?raw=true' },
-  { id: 'C0011', name: 'Touch locks', image: 'https://github.com/liffto/hitechupvc-new/blob/main/Assets/Touch%20locks%20(1).png?raw=true' },
-  { id: 'C0012', name: 'Bathroom door lock set', image: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Bathroom%20Door%20Lock%20(2).png?raw=true' },
-  { id: 'C0013', name: 'Friction stays 202 & 304', image: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/image%20163.png?raw=true' },
-  { id: 'C0014', name: 'Hinges', image: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/Hinges%20(1).png?raw=true' },
-  { id: 'C0015', name: 'Mortise gears', image: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Mortise%20Door%20Set.png?raw=true' },
-  { id: 'C0016', name: 'Machines', image: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Corner%20Cleaning%20Machine.png?raw=true' },
-  { id: 'C0017', name: 'Axis', image: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Casement%20Striker%20-%209mm%20Axis.png?raw=true' },
-  { id: 'C0018', name: 'Sliding handles (alt)', image: 'https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/SLIDING%20HANDLE.jpeg?raw=true' },
+  { id: 'C001', name: 'Drilling screws MS & SS', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Frame%20Fixing%20Fasteners%20(1).png' },
+  { id: 'C002', name: 'SS mesh', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/SS%20Mesh%20(1).png' },
+  { id: 'C003', name: 'Espags', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20esparg%2022mm%20Back%20set%20(1).png' },
+  { id: 'C004', name: 'Sliding door sets', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Sliding%20Door%20Set%20-%20D%20Handle%20(1).png' },
+  { id: 'C005', name: 'Casement door sets', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20Door%20Set%20-%20Regular%20(1).png' },
+  { id: 'C006', name: 'Casement handle', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20Handle%20Spindle%20(1).png' },
+  { id: 'C006.5', name: 'Plastic items', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Anti%20lift%20Block.png' },
+  { id: 'C007', name: 'Sliding handles', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Popup%20Handle%20WH.png' },
+  { id: 'C008', name: 'Tools', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Gasket%20Mesh%20Tool.png' },
+  { id: 'C009', name: 'Gasket (Mesh Tool)', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Gasket%20Mesh%20Tool%20(1).png' },
+  { id: 'C0010', name: 'Cylinders', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Cylinder%20(1).png' },
+  { id: 'C0011', name: 'Touch locks', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Touch%20locks%20(1).png' },
+  { id: 'C0012', name: 'Bathroom door lock set', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Bathroom%20Door%20Lock%20(2).png' },
+  { id: 'C0013', name: 'Friction stays 202 & 304', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/image%20163.png' },
+  { id: 'C0014', name: 'Hinges', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/Hinges%20(1).png' },
+  { id: 'C0015', name: 'Mortise gears', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Mortise%20Door%20Set.png' },
+  { id: 'C0016', name: 'Machines', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Corner%20Cleaning%20Machine.png' },
+  { id: 'C0017', name: 'Axis', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Casement%20Striker%20-%209mm%20Axis.png' },
+  { id: 'C0018', name: 'Sliding handles (alt)', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/SLIDING%20HANDLE.jpeg' },
   { id: 'C0019', name: 'Spacer rod', image: NO_IMAGE_URL },
-  { id: 'C0020', name: 'Silicone sealants', image: 'https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/SILICONE%20GUN%20PREMIUM.jpeg?raw=true' },
-  { id: 'C0021', name: 'Door stopper', image: NO_IMAGE_URL },
-  { id: 'C0022', name: 'Keep', image: 'https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/KEEP.jpeg?raw=true' },
-  { id: 'C0023', name: 'Clamp', image: NO_IMAGE_URL },
-  { id: 'C0024', name: 'Steel', image: NO_IMAGE_URL },
-  { id: 'C0025', name: 'Wool pile', image: NO_IMAGE_URL },
-  { id: 'C0026', name: 'Rollers', image: 'https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/Roller.png?raw=true' },
-  { id: 'C0027', name: 'Aluminium track', image: NO_IMAGE_URL }
+  { id: 'C0020', name: 'Silicone sealants', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/SILICONE%20GUN%20PREMIUM.jpeg' },
+  { id: 'C0021', name: 'Door stopper', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/Door%20stop.webp' },
+  { id: 'C0022', name: 'Keep', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/KEEP.jpeg' },
+  { id: 'C0023', name: 'Clamp', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/Clamp.png' },
+  { id: 'C0024', name: 'Steel', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/Steel.png' },
+  { id: 'C0025', name: 'Wool pile', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/woolpile-dor-window.jpg' },
+  { id: 'C0026', name: 'Rollers', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/Roller.png' },
+  { id: 'C0027', name: 'Aluminium track', image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/Aluminium-Sliding-Door-Track.jpg' }
 ];
 
 export const INITIAL_PRODUCTS: Product[] = [
@@ -103,7 +103,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   { id: 'I004', categoryId: 'C001', name: 'CSK self tapping screws', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/PAN%20Head%20Self%20Drilling%20Screws%20(4).png?raw=true'], description: 'CSK Self Tapping Screws 4x13\nCSK Self Tapping Screws 4x16\nCSK Head Self Tapping Screws 4x19\nCSK Head Self Tapping Screws 4x25\nCSKHead Self Tapping Screws 4x32\nCSK Head Self Tapping Screws 4x38\nCSK Head Self Tapping Screws 4x50\nCSK Head Self Tapping Screws 4x60\nCSKHead Self Tapping Screws 4x75' },
 
   // C002 - SS mesh
-  { id: 'I005', categoryId: 'C002', name: 'SS black mesh', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/SS%20Mesh%20(1).png?raw=true'], description: 'SS BLACK Mesh (0.22mm) 3.0x100 (300 SQF)\nSS BLACK Mesh (0.22mm) 4.0x100 (400 SQF)\nSS BLACK Mesh (0.22mm) 5.0x100 (500 SQF)\nSS BLACK Mesh (0.19mm) 3.0x100 (300 SQF)\nSS BLACK Mesh (0.19mm) 4.0x100 (400 SQF)\nSS BLACK Mesh (0.19mm) 5.0x100 (500 SQF)' },
+  { id: 'I005', categoryId: 'C002', name: 'SS black mesh (Black)', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/SS%20Mesh%20(1).png?raw=true'], description: 'SS BLACK Mesh (0.22mm) 3.0x100 (300 SQF)\nSS BLACK Mesh (0.22mm) 4.0x100 (400 SQF)\nSS BLACK Mesh (0.22mm) 5.0x100 (500 SQF)\nSS BLACK Mesh (0.19mm) 3.0x100 (300 SQF)\nSS BLACK Mesh (0.19mm) 4.0x100 (400 SQF)\nSS BLACK Mesh (0.19mm) 5.0x100 (500 SQF)' },
   { id: 'I006', categoryId: 'C002', name: 'Aluminium mesh', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Aluminium%20mesh%20(2).png?raw=true'], description: 'Aluminium Mesh 3.0x 100 (300 SQF)\nAluminium Mesh 4.0x100 (400 SQF)\nAluminium Mesh 5.0x100 (500 SQF)' },
   { id: 'I007', categoryId: 'C002', name: 'Nylon mesh', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Nylon%20Mesh%20(2).png?raw=true'], description: 'Nylon Mesh 3.0x100 (300 SQF)\nNylon Mesh 4.0x100 (400 SQF)\nNylon Mesh 5.0x100 (500 SQF)' },
 
@@ -143,7 +143,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   { id: 'I0032', categoryId: 'C006.5', name: 'Flat packer', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/FLAT%20packer.jpeg?raw=true'], description: '' },
   { id: 'I0033', categoryId: 'C006.5', name: 'Plastic C handle', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Plastic%20c%20HANDLE.png?raw=true'], description: '' },
   { id: 'I0034', categoryId: 'C006.5', name: 'Jump arrester', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Jump%20Aresster.jpeg?raw=true'], description: '' },
-  { id: 'I0035', categoryId: 'C006.5', name: 'Touch lock cap', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Touch%20lock%20cap.jpeg?raw=true'], description: '' },
+  { id: 'I0035', categoryId: 'C006.5', name: 'Collusion Push', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Touch%20lock%20cap.jpeg?raw=true'], description: '' },
   { id: 'I0036', categoryId: 'C006.5', name: 'Mesh stopper', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Mesh%20Stopper.png?raw=true'], description: '' },
   { id: 'I0037', categoryId: 'C006.5', name: 'Movable louver 3 blades', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Movable%20Louvre%203%20Blades.jpeg?raw=true'], description: '' },
   { id: 'I0038', categoryId: 'C006.5', name: 'Movable louver 4 blades', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Movable%20Louvre%204%20Blades.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
@@ -297,8 +297,8 @@ export const INITIAL_CATALOGS: Catalog[] = [
   { 
     id: 'c3', 
     name: 'Gemplast Technical Manual', 
-    image: 'https://github.com/liffto/hitechupvchardwares-web/blob/main/Assets/Catalog%203.png?raw=true', 
-    fileUrl: 'https://drive.google.com/file/d/1AtJ1m-gxEOzkQKIUTEIBxspT63cHARno/view?usp=sharing' 
+    image: 'https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/abc.jpg', 
+    fileUrl: 'https://drive.google.com/file/d/1I4ccDVAv4Kenyy-XWQ7WGqK7updPsMzQ/view?usp=drive_link' 
   }
 ];
 
@@ -313,19 +313,19 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const INITIAL_GALLERY: GalleryImage[] = [
-  { id: 'g1', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/1.jpg?raw=true', caption: 'Installation Excellence' },
-  { id: 'g2', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/10.jpg?raw=true', caption: 'Project Showcase' },
-  { id: 'g3', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/12.jpg?raw=true', caption: 'Hardware Application' },
-  { id: 'g4', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/13.jpg?raw=true', caption: 'Window Systems' },
-  { id: 'g5', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/14.jpg?raw=true', caption: 'Quality Finishing' },
-  { id: 'g6', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/15.jpg?raw=true', caption: 'Modern Designs' },
-  { id: 'g7', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/16.jpg?raw=true', caption: 'Durable Hardware' },
-  { id: 'g8', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/19.jpg?raw=true', caption: 'Product Display' },
-  { id: 'g9', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/2.jpg?raw=true', caption: 'Precision Engineering' },
-  { id: 'g10', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/20.jpg?raw=true', caption: 'Technical Integration' },
-  { id: 'g11', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/3.jpg?raw=true', caption: 'Residential Project' },
-  { id: 'g12', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/5.jpg?raw=true', caption: 'Commercial Solutions' },
-  { id: 'g13', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/6.jpg?raw=true', caption: 'Aesthetic Hardware' },
-  { id: 'g14', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/7.jpg?raw=true', caption: 'Reliable Systems' },
-  { id: 'g15', url: 'https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/9.jpg?raw=true', caption: 'Installation View' }
+  { id: 'g1', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/1.jpg', caption: 'Installation Excellence' },
+  { id: 'g2', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/10.jpg', caption: 'Project Showcase' },
+  { id: 'g3', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/12.jpg', caption: 'Hardware Application' },
+  { id: 'g4', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/13.jpg', caption: 'Window Systems' },
+  { id: 'g5', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/14.jpg', caption: 'Quality Finishing' },
+  { id: 'g6', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/15.jpg', caption: 'Modern Designs' },
+  { id: 'g7', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/16.jpg', caption: 'Durable Hardware' },
+  { id: 'g8', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/19.jpg', caption: 'Product Display' },
+  { id: 'g9', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/2.jpg', caption: 'Precision Engineering' },
+  { id: 'g10', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/20.jpg', caption: 'Technical Integration' },
+  { id: 'g11', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/3.jpg', caption: 'Residential Project' },
+  { id: 'g12', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/5.jpg', caption: 'Commercial Solutions' },
+  { id: 'g13', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/6.jpg', caption: 'Aesthetic Hardware' },
+  { id: 'g14', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/7.jpg', caption: 'Reliable Systems' },
+  { id: 'g15', url: 'https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/9.jpg', caption: 'Installation View' }
 ];

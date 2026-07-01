@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import IconRenderer from '../components/IconRenderer';
 import { SiteSettings } from '../types';
+import { NO_IMAGE_URL } from '../constants';
 
 interface AboutPageProps {
   settings: SiteSettings;
@@ -21,6 +22,10 @@ const AboutPage: React.FC<AboutPageProps> = ({ settings }) => {
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img 
               src={settings.aboutImage} 
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = NO_IMAGE_URL;
+              }}
               className="w-full h-auto object-cover" 
               alt="Hi-Tech Hardware Primary" 
             />
@@ -47,6 +52,10 @@ const AboutPage: React.FC<AboutPageProps> = ({ settings }) => {
             <div className="order-1 lg:order-2 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <img 
                 src={settings.aboutImageSecondary} 
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = NO_IMAGE_URL;
+                }}
                 className="w-full h-auto object-cover" 
                 alt="Hardware Excellence" 
               />
@@ -69,6 +78,10 @@ const AboutPage: React.FC<AboutPageProps> = ({ settings }) => {
             <img 
               src={settings.strengthImage} 
               alt="Strengths Teamwork" 
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = NO_IMAGE_URL;
+              }}
               className="w-full h-auto rounded-lg" 
             />
           </div>
@@ -106,6 +119,10 @@ const AboutPage: React.FC<AboutPageProps> = ({ settings }) => {
                     <img 
                       src={url} 
                       alt={`Certificate ${index + 1}`} 
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.src = NO_IMAGE_URL;
+                      }}
                       className="max-w-full max-h-full object-contain transition-transform duration-700 group-hover:scale-110"
                       loading="lazy"
                     />

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Layout from '../components/Layout';
 import { Category, Product, SiteSettings } from '../types';
+import { NO_IMAGE_URL } from '../constants';
 import { ChevronLeft } from 'lucide-react';
 
 interface ProductListPageProps {
@@ -47,6 +48,10 @@ const ProductListPage: React.FC<ProductListPageProps> = ({ categories, products,
                     alt={product.name} 
                     loading="lazy"
                     decoding="async"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = NO_IMAGE_URL;
+                    }}
                     className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700" 
                   />
                 </div>

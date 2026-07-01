@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import { GalleryImage, SiteSettings } from '../types';
+import { NO_IMAGE_URL } from '../constants';
 
 interface GalleryPageProps {
   gallery: GalleryImage[];
@@ -30,6 +31,10 @@ const GalleryPage: React.FC<GalleryPageProps> = ({ gallery, settings }) => {
                 <img 
                   src={img.url} 
                   alt={img.caption || 'Hi-Tech Hardware Gallery'} 
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = NO_IMAGE_URL;
+                  }}
                   className="w-full h-auto block transition-transform duration-700 group-hover:scale-105" 
                   loading="lazy"
                   decoding="async"
