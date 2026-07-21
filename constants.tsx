@@ -24,7 +24,7 @@ const NO_IMAGE_SVG = `
 export const NO_IMAGE_URL = `data:image/svg+xml;base64,${btoa(NO_IMAGE_SVG)}`;
 
 export const INITIAL_SETTINGS: SiteSettings = {
-  whatsapp: '916382488657',
+  whatsapp: '916382463875',
   email: 'hitechupvc@gmail.com',
   facebook: 'https://www.facebook.com/share/1GeNASNguA/',
   instagram: 'https://www.instagram.com/hitechhardwares?igsh=YXVpNHpyeHp2cHdm',
@@ -68,7 +68,7 @@ export const INITIAL_CATEGORIES: Category[] = [
   { id: 'C001', name: 'Drilling screws MS & SS', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Frame%20Fixing%20Fasteners%20(1).png' },
   { id: 'C002', name: 'SS mesh', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/SS%20Mesh%20(1).png' },
   { id: 'C003', name: 'Espags', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/refs/heads/main/Assets/Sliding%20Espag.webp.avif' },
-  { id: 'C004', name: 'Sliding door sets', image: 'https://github.com/liffto/UPVCnew/blob/main/components/Sliding%20door%20set%20-%20D%20handle.jpeg?raw=true' },
+  { id: 'C004', name: 'Sliding door sets', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Sliding%20Door%20Set%20-%20D%20Handle%20(1).png' },
   { id: 'C005', name: 'Casement door sets', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20Door%20Set%20-%20Regular%20(1).png' },
   { id: 'C006', name: 'Casement handle', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20Handle%20Spindle%20(1).png' },
   { id: 'C006.5', name: 'Plastic items', image: 'https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Anti%20lift%20Block.png' },
@@ -97,157 +97,157 @@ export const INITIAL_CATEGORIES: Category[] = [
 
 export const INITIAL_PRODUCTS: Product[] = [
   // C001 - Drilling screws MS & SS
-  { id: 'I001', categoryId: 'C001', name: 'Frame fixing fasteners', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Frame%20Fixing%20Fasteners%20(1).png?raw=true'], description: 'Frame Fixing Fasteners : 8x60 MM\nFrame Fixing Fasteners : 8x80 MM\nFrame Fixing Fasteners : 8x100 MM' },
-  { id: 'I002', categoryId: 'C001', name: 'CSK self drilling screws', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/CSK%20Self%20Drilling%20Screws%20(1).png?raw=true'], description: 'CSK Self Drilling Screws 3.9x13\nCSK Self Drilling Screws 3.9x16\nCSK Self Drilling Screws 3.9x19\nCSK Self Drilling Screws 3.9x25\nCSK Self Drilling Screws 3.9x32\nCSK Self Drilling Screws 3.9x38\nCSK Self Drilling Screws 4.2x50\nCSK Self Drilling Screws 4.2x60\nCSK Self Drilling Screws 4.2x75' },
-  { id: 'I003', categoryId: 'C001', name: 'PAN head self drilling screws', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/PAN%20Head%20Self%20Drilling%20Screws%20(3).png?raw=true'], description: 'PAN Head Self Drilling Screws 4x16\nPAN Head Self Drilling Screws 4x19\nPAN Head Self Drilling Screws 4x25\nPAN Head Self Drilling Screws 4x32\nPAN Head Self Drilling Screws 4x38\nPAN Head Self Drilling Screws 4x50\nPAN Head Self Drilling Screws 4x60\nPAN Head Self Drilling Screws 4x75' },
-  { id: 'I004', categoryId: 'C001', name: 'CSK self tapping screws', images: ['https://github.com/liffto/UPVCnew/blob/main/components/CSK%20self%20tapping%20screws.jpeg?raw=true'], description: 'CSK Self Tapping Screws 4x13\nCSK Self Tapping Screws 4x16\nCSK Head Self Tapping Screws 4x19\nCSK Head Self Tapping Screws 4x25\nCSKHead Self Tapping Screws 4x32\nCSK Head Self Tapping Screws 4x38\nCSK Head Self Tapping Screws 4x50\nCSK Head Self Tapping Screws 4x60\nCSKHead Self Tapping Screws 4x75' },
+  { id: 'I001', categoryId: 'C001', name: 'Frame fixing fasteners', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Frame%20Fixing%20Fasteners%20(1).png'], description: 'Frame Fixing Fasteners : 8x60 MM\nFrame Fixing Fasteners : 8x80 MM\nFrame Fixing Fasteners : 8x100 MM' },
+  { id: 'I002', categoryId: 'C001', name: 'CSK self drilling screws', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/CSK%20Self%20Drilling%20Screws%20(1).png'], description: 'CSK Self Drilling Screws 3.9x13\nCSK Self Drilling Screws 3.9x16\nCSK Self Drilling Screws 3.9x19\nCSK Self Drilling Screws 3.9x25\nCSK Self Drilling Screws 3.9x32\nCSK Self Drilling Screws 3.9x38\nCSK Self Drilling Screws 4.2x50\nCSK Self Drilling Screws 4.2x60\nCSK Self Drilling Screws 4.2x75' },
+  { id: 'I003', categoryId: 'C001', name: 'PAN head self drilling screws', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/PAN%20Head%20Self%20Drilling%20Screws%20(3).png'], description: 'PAN Head Self Drilling Screws 4x16\nPAN Head Self Drilling Screws 4x19\nPAN Head Self Drilling Screws 4x25\nPAN Head Self Drilling Screws 4x32\nPAN Head Self Drilling Screws 4x38\nPAN Head Self Drilling Screws 4x50\nPAN Head Self Drilling Screws 4x60\nPAN Head Self Drilling Screws 4x75' },
+  { id: 'I004', categoryId: 'C001', name: 'CSK self tapping screws', images: ['https://github.com/liffto/UPVCnew/blob/main/images/CSK%20self%20tapping%20screws.jpeg?raw=true'], description: 'CSK Self Tapping Screws 4x13\nCSK Self Tapping Screws 4x16\nCSK Head Self Tapping Screws 4x19\nCSK Head Self Tapping Screws 4x25\nCSKHead Self Tapping Screws 4x32\nCSK Head Self Tapping Screws 4x38\nCSK Head Self Tapping Screws 4x50\nCSK Head Self Tapping Screws 4x60\nCSKHead Self Tapping Screws 4x75' },
 
   // C002 - SS mesh
   { id: 'I005', categoryId: 'C002', name: 'SS black mesh (Black)', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Black%20mess.jpg'], description: 'SS BLACK Mesh (0.22mm) 3.0x100 (300 SQF)\nSS BLACK Mesh (0.22mm) 4.0x100 (400 SQF)\nSS BLACK Mesh (0.22mm) 5.0x100 (500 SQF)\nSS BLACK Mesh (0.19mm) 3.0x100 (300 SQF)\nSS BLACK Mesh (0.19mm) 4.0x100 (400 SQF)\nSS BLACK Mesh (0.19mm) 5.0x100 (500 SQF)' },
-  { id: 'I006', categoryId: 'C002', name: 'Aluminium mesh', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Aluminium%20mesh%20(2).png?raw=true'], description: 'Aluminium Mesh 3.0x 100 (300 SQF)\nAluminium Mesh 4.0x100 (400 SQF)\nAluminium Mesh 5.0x100 (500 SQF)' },
-  { id: 'I007', categoryId: 'C002', name: 'Nylon mesh', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Nylon%20Mesh%20(2).png?raw=true'], description: 'Nylon Mesh 3.0x100 (300 SQF)\nNylon Mesh 4.0x100 (400 SQF)\nNylon Mesh 5.0x100 (500 SQF)' },
+  { id: 'I006', categoryId: 'C002', name: 'Aluminium mesh', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Aluminium%20mesh%20(2).png'], description: 'Aluminium Mesh 3.0x 100 (300 SQF)\nAluminium Mesh 4.0x100 (400 SQF)\nAluminium Mesh 5.0x100 (500 SQF)' },
+  { id: 'I007', categoryId: 'C002', name: 'Nylon mesh', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Nylon%20Mesh%20(2).png'], description: 'Nylon Mesh 3.0x100 (300 SQF)\nNylon Mesh 4.0x100 (400 SQF)\nNylon Mesh 5.0x100 (500 SQF)' },
 
   // C003 - Espags
-  { id: 'I008', categoryId: 'C003', name: 'Casement esparg 22mm back set', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Casement%20esparg%2022mm%20Back%20set%20(1).png?raw=true'], description: '22MM BS CASEMENT ESPAG - 400 MM\n22MM BS CASEMENT ESPAG - 600 MM\n22MM BS CASEMENT ESPAG - 800 MM\n22MM BS CASEMENT ESPAG - 1000 MM\n22MM BS CASEMENT ESPAG - 1200 MM\n22MM BS CASEMENT ESPAG - 1400 MM\n22MM BS CASEMENT ESPAG - 1600 MM\n22MM BS CASEMENT ESPAG - 1800 MM\n22MM BS CASEMENT ESPAG - 2000 MM' },
-  { id: 'I009', categoryId: 'C003', name: 'Sliding espags 7.5 mm back set', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Sliding%20espags%207.5%20mm%20back%20set.jpeg?raw=true'], description: '7.5 MM BS SLIDING ESPAG - 400 MM\n7.5 MM BS SLIDING ESPAG - 600 MM\n7.5 MM BS SLIDING ESPAG - 800 MM\n7.5 MM BS SLIDING ESPAG - 1000 MM\n7.5 MM BS SLIDING ESPAG - 1200 MM\n7.5 MM BS SLIDING ESPAG - 1400 MM\n7.5 MM BS SLIDING ESPAG - 1600 MM\n7.5 MM BS SLIDING ESPAG - 1800 MM\n7.5 MM BS SLIDING ESPAG - 2000 MM' },
-  { id: 'I010', categoryId: 'C003', name: 'Sliding espags 15mm back set', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Sliding%20espags%2015mm%20back%20set.jpeg?raw=true'], description: '15 MM BS SLIDING ESPAG - 400 MM\n15 MM BS SLIDING ESPAG - 600 MM\n15 MM BS SLIDING ESPAG - 800 MM\n15 MM BS SLIDING ESPAG - 1000 MM\n15 MM BS SLIDING ESPAG - 1200 MM\n15 MM BS SLIDING ESPAG - 1400 MM\n15 MM BS SLIDING ESPAG - 1600 MM\n15 MM BS SLIDING ESPAG - 1800 MM\n15 MM BS SLIDING ESPAG - 2000 MM' },
+  { id: 'I008', categoryId: 'C003', name: 'Casement esparg 22mm back set', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20esparg%2022mm%20Back%20set%20(1).png'], description: '22MM BS CASEMENT ESPAG - 400 MM\n22MM BS CASEMENT ESPAG - 600 MM\n22MM BS CASEMENT ESPAG - 800 MM\n22MM BS CASEMENT ESPAG - 1000 MM\n22MM BS CASEMENT ESPAG - 1200 MM\n22MM BS CASEMENT ESPAG - 1400 MM\n22MM BS CASEMENT ESPAG - 1600 MM\n22MM BS CASEMENT ESPAG - 1800 MM\n22MM BS CASEMENT ESPAG - 2000 MM' },
+  { id: 'I009', categoryId: 'C003', name: 'Sliding espags 7.5 mm back set', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Sliding%20espags%207.5%20mm%20back%20set.jpeg?raw=true'], description: '7.5 MM BS SLIDING ESPAG - 400 MM\n7.5 MM BS SLIDING ESPAG - 600 MM\n7.5 MM BS SLIDING ESPAG - 800 MM\n7.5 MM BS SLIDING ESPAG - 1000 MM\n7.5 MM BS SLIDING ESPAG - 1200 MM\n7.5 MM BS SLIDING ESPAG - 1400 MM\n7.5 MM BS SLIDING ESPAG - 1600 MM\n7.5 MM BS SLIDING ESPAG - 1800 MM\n7.5 MM BS SLIDING ESPAG - 2000 MM' },
+  { id: 'I010', categoryId: 'C003', name: 'Sliding espags 15mm back set', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Sliding%20espags%2015mm%20back%20set.jpeg?raw=true'], description: '15 MM BS SLIDING ESPAG - 400 MM\n15 MM BS SLIDING ESPAG - 600 MM\n15 MM BS SLIDING ESPAG - 800 MM\n15 MM BS SLIDING ESPAG - 1000 MM\n15 MM BS SLIDING ESPAG - 1200 MM\n15 MM BS SLIDING ESPAG - 1400 MM\n15 MM BS SLIDING ESPAG - 1600 MM\n15 MM BS SLIDING ESPAG - 1800 MM\n15 MM BS SLIDING ESPAG - 2000 MM' },
 
   // C004 - Sliding door sets
-  { id: 'I011', categoryId: 'C004', name: 'Sliding door set - D handle', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Sliding%20door%20set%20-%20D%20handle.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I011', categoryId: 'C004', name: 'Sliding door set - D handle', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Sliding%20door%20set%20-%20D%20handle.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
 
   // C005 - Casement door sets
-  { id: 'I0012', categoryId: 'C005', name: 'Casement door set - regular', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Casment%20regular%20set.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE' },
-  { id: 'I0013', categoryId: 'C005', name: 'Casement door set - multipoint/euro type', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Casement%20door%20set%20-%20multipoint:euro%20type.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0012', categoryId: 'C005', name: 'Casement regular set', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Casment%20regular%20set.jpeg?raw=true'], description: 'Casment regular set\nAVAILABLE COLOURS :\n\nWHITE' },
+  { id: 'I0013', categoryId: 'C005', name: 'Casement door set - multipoint/euro type', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Casement%20door%20set%20-%20multipoint:euro%20type.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
 
   // C006 - Casement handle
-  { id: 'I0014', categoryId: 'C006', name: 'Casement handle spindle', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Casement%20Handle%20Spindle%20(1).png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0015', categoryId: 'C006', name: 'Casement handle American', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/image%20135.png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0016', categoryId: 'C006', name: 'Cockspur handle RH & LH', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Cockspur%20Handle%20R.png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0017', categoryId: 'C006', name: 'Cockspur handle PR RH & LH', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Cockspur%20Handle%20PR%20R.png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0018', categoryId: 'C006', name: 'Door handle', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Door%20Handle%201.jpeg?raw=true'], description: '' },
-  { id: 'I0019', categoryId: 'C006', name: 'T lock', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/T%20LOCK.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
-  { id: 'I0020', categoryId: 'C006', name: 'Casement handle press and key', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/PRESS%20AND%20KEY.jpeg?raw=true'], description: '' },
-  { id: 'I0021', categoryId: 'C006', name: 'Wonder single arm operator', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/WONDER%20SINGLE%20ARM%20OPERATOR.jpeg?raw=true'], description: "WONDER OPERATOR SINGLE ARM - 7.5'' LEFT\nWONDER OPERATOR SINGLE ARM -7.5''RIGHT\nWONDER OPERATOR SINGLE ARM - 9.5'' LEFT\nWONDER OPERATOR SINGLE ARM - 9.5'' RIGHT\nWONDER SINGLE ARM OPERATOR-13''RIGHT\nWONDER OPERATOR Y SERIES - 13.7''\nWONDER OPERATOR Y SERIES - 9''" },
+  { id: 'I0014', categoryId: 'C006', name: 'Casement handle spindle', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Casement%20Handle%20Spindle%20(1).png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0015', categoryId: 'C006', name: 'Casement handle American', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/image%20135.png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0016', categoryId: 'C006', name: 'Cockspur handle RH & LH', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Cockspur%20Handle%20R.png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0017', categoryId: 'C006', name: 'Cockspur handle PR RH & LH', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Cockspur%20Handle%20PR%20R.png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0018', categoryId: 'C006', name: 'Door handle', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Door%20Handle%201.jpeg?raw=true'], description: '' },
+  { id: 'I0019', categoryId: 'C006', name: 'T lock', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/T%20LOCK.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
+  { id: 'I0020', categoryId: 'C006', name: 'Casement handle press and key', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/PRESS%20AND%20KEY.jpeg'], description: '' },
+  { id: 'I0021', categoryId: 'C006', name: 'Wonder single arm operator', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/WONDER%20SINGLE%20ARM%20OPERATOR.jpeg'], description: "WONDER OPERATOR SINGLE ARM - 7.5'' LEFT\nWONDER OPERATOR SINGLE ARM -7.5''RIGHT\nWONDER OPERATOR SINGLE ARM - 9.5'' LEFT\nWONDER OPERATOR SINGLE ARM - 9.5'' RIGHT\nWONDER SINGLE ARM OPERATOR-13''RIGHT\nWONDER OPERATOR Y SERIES - 13.7''\nWONDER OPERATOR Y SERIES - 9''" },
 
   // C006.5 - Plastic items
-  { id: 'I0022', categoryId: 'C006.5', name: 'Fastener cap star type', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Fastner%20Cap%20(2).png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0023', categoryId: 'C006.5', name: 'Drainage cap', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Drainage%20cap.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0024', categoryId: 'C006.5', name: 'Window spacer', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Window%20Spacer.png?raw=true'], description: '' },
-  { id: 'I0025', categoryId: 'C006.5', name: 'Door spacer', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Door%20Spacer.png?raw=true'], description: '' },
-  { id: 'I0026', categoryId: 'C006.5', name: 'Fixed louvers', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Fixed%20Louver%20110mm.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0027', categoryId: 'C006.5', name: 'Bump stopper', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Bump%20Stopper.png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0028', categoryId: 'C006.5', name: 'Casement wedge', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Casement%20wedge.jpeg?raw=true'], description: 'AVAILABLE BIG AND SMALL' },
-  { id: 'I0029', categoryId: 'C006.5', name: 'Anti lift block', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Anti%20lift%20Block%20(1).png?raw=true'], description: '' },
-  { id: 'I0030', categoryId: 'C006.5', name: 'U packers', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/U%20Packers.png?raw=true'], description: '' },
-  { id: 'I0031', categoryId: 'C006.5', name: 'Glass packer', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Glass%20packer%201mm.jpeg?raw=true'], description: '' },
-  { id: 'I0032', categoryId: 'C006.5', name: 'Flat packer', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/FLAT%20packer.jpeg?raw=true'], description: '' },
-  { id: 'I0033', categoryId: 'C006.5', name: 'Plastic C handle', images: ['https://github.com/liffto/UPVCnew/blob/main/components/C%20handle%20Heading.jpeg?raw=true'], description: '' },
-  { id: 'I0034', categoryId: 'C006.5', name: 'Jump arrester', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Jump%20Aresster.jpeg?raw=true'], description: '' },
-  { id: 'I0035', categoryId: 'C006.5', name: 'Collusion Push', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Touch%20lock%20cap.jpeg?raw=true'], description: '' },
-  { id: 'I0036', categoryId: 'C006.5', name: 'Mesh stopper', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Plastic%20Items/Mesh%20Stopper.png?raw=true'], description: '' },
-  { id: 'I0037', categoryId: 'C006.5', name: 'Movable louver 3 blades', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Movable%20Louvre%203%20Blades.jpeg?raw=true'], description: '' },
-  { id: 'I0038', categoryId: 'C006.5', name: 'Movable louver 4 blades', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Movable%20Louvre%204%20Blades.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0039', categoryId: 'C006.5', name: 'Movable louver 5 blades', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Movable%20Louvre%205%20Blades.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
-  { id: 'I0040', categoryId: 'C006.5', name: 'Movable louver 6 blades', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/Movable%20Louvre%206%20Blades.jpeg?raw=true'], description: '' },
+  { id: 'I0022', categoryId: 'C006.5', name: 'Fastener cap star type', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/Fastner%20Cap%20(2).png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0023', categoryId: 'C006.5', name: 'Drainage cap', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Drainage%20cap.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0024', categoryId: 'C006.5', name: 'Window spacer', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/Window%20Spacer.png'], description: '' },
+  { id: 'I0025', categoryId: 'C006.5', name: 'Door spacer', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/Door%20Spacer.png'], description: '' },
+  { id: 'I0026', categoryId: 'C006.5', name: 'Fixed louvers', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Fixed%20Louver%20110mm.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0027', categoryId: 'C006.5', name: 'Bump stopper', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/Bump%20Stopper.png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0028', categoryId: 'C006.5', name: 'Casement wedge', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Casement%20wedge.jpeg'], description: 'AVAILABLE BIG AND SMALL' },
+  { id: 'I0029', categoryId: 'C006.5', name: 'Anti lift block', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/Anti%20lift%20Block%20(1).png'], description: '' },
+  { id: 'I0030', categoryId: 'C006.5', name: 'U packers', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/U%20Packers.png'], description: '' },
+  { id: 'I0031', categoryId: 'C006.5', name: 'Glass packer', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Glass%20packer%201mm.jpeg'], description: '' },
+  { id: 'I0032', categoryId: 'C006.5', name: 'Flat packer', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/FLAT%20packer.jpeg'], description: '' },
+  { id: 'I0033', categoryId: 'C006.5', name: 'Plastic C handle', images: ['https://github.com/liffto/UPVCnew/blob/main/images/C%20handle%20Heading.jpeg?raw=true'], description: '' },
+  { id: 'I0034', categoryId: 'C006.5', name: 'Jump arrester', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Jump%20Aresster.jpeg'], description: '' },
+  { id: 'I0035', categoryId: 'C006.5', name: 'Collusion Push', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Touch%20lock%20cap.jpeg'], description: '' },
+  { id: 'I0036', categoryId: 'C006.5', name: 'Mesh stopper', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Plastic%20Items/Mesh%20Stopper.png'], description: '' },
+  { id: 'I0037', categoryId: 'C006.5', name: 'Movable louver 3 blades', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Movable%20Louvre%203%20Blades.jpeg'], description: '' },
+  { id: 'I0038', categoryId: 'C006.5', name: 'Movable louver 4 blades', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Movable%20Louvre%204%20Blades.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0039', categoryId: 'C006.5', name: 'Movable louver 5 blades', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Movable%20Louvre%205%20Blades.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
+  { id: 'I0040', categoryId: 'C006.5', name: 'Movable louver 6 blades', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/Movable%20Louvre%206%20Blades.jpeg'], description: '' },
   { id: 'I0041', categoryId: 'C006.5', name: 'Mesh plastic handle (square type)', images: [NO_IMAGE_URL], description: '' },
-  { id: 'I0042', categoryId: 'C006.5', name: 'Mesh plastic handle (round type)', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/MESH%20PLASTIC%20HANDLE%20(%20ROUND%20TYPE%20).jpeg?raw=true'], description: '' },
-  { id: 'I0043', categoryId: 'C006.5', name: 'Security clip', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/SECURITY%20CLIP.jpeg?raw=true'], description: '' },
+  { id: 'I0042', categoryId: 'C006.5', name: 'Mesh plastic handle (round type)', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/MESH%20PLASTIC%20HANDLE%20(%20ROUND%20TYPE%20).jpeg'], description: '' },
+  { id: 'I0043', categoryId: 'C006.5', name: 'Security clip', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/SECURITY%20CLIP.jpeg'], description: '' },
 
   // C007 - Sliding handles
-  { id: 'I0044', categoryId: 'C007', name: 'Popup handle slim', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Popup%20Handle%20Slim%20(1).png?raw=true'], description: '' },
+  { id: 'I0044', categoryId: 'C007', name: 'Popup handle slim', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Popup%20Handle%20Slim%20(1).png'], description: '' },
   { id: 'I0045', categoryId: 'C007', name: 'Popup handle', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Pop%20Up%20Handle%20Slim.jpg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0046', categoryId: 'C007', name: 'Sliding handle', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Sliding%201.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
-  { id: 'I0047', categoryId: 'C007', name: 'Short neck handle big', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/SHORT%20NECK%20HANDLE%20BIG.jpeg?raw=true'], description: '' },
-  { id: 'I0048', categoryId: 'C007', name: 'Sliding handle with key', images: ['https://github.com/liffto/UPVCnew/blob/main/components/key.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0049', categoryId: 'C007', name: 'Double handle without key', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Double%20Handle%20Without%20Key.jpeg?raw=true'], description: '' },
-  { id: 'I0050', categoryId: 'C007', name: 'Double handle with one side key', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/DOUBLE%20HANDLE%20WITH%20ONE%20SIDE%20KEY%20-%20SASH.jpeg?raw=true'], description: '' },
-  { id: 'I0051', categoryId: 'C007', name: 'Double handle with one side key one side knob', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Double%20Handle%20One%20Side%20Key.jpeg?raw=true'], description: '' },
-  { id: 'I0052', categoryId: 'C007', name: 'Double handle with both side keys', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Both%20side%20key.jpeg?raw=true'], description: '' },
+  { id: 'I0046', categoryId: 'C007', name: 'Sliding handle', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Sliding%201.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
+  { id: 'I0047', categoryId: 'C007', name: 'Short neck handle big', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/SHORT%20NECK%20HANDLE%20BIG.jpeg'], description: '' },
+  { id: 'I0048', categoryId: 'C007', name: 'Sliding handle with key', images: ['https://github.com/liffto/UPVCnew/blob/main/images/key.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0049', categoryId: 'C007', name: 'Double handle without key', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Double%20Handle%20Without%20Key.jpeg?raw=true'], description: '' },
+  { id: 'I0050', categoryId: 'C007', name: 'Double handle with one side key', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/DOUBLE%20HANDLE%20WITH%20ONE%20SIDE%20KEY%20-%20SASH.jpeg'], description: '' },
+  { id: 'I0051', categoryId: 'C007', name: 'Double handle with one side key one side knob', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Double%20Handle%20One%20Side%20Key.jpeg?raw=true'], description: '' },
+  { id: 'I0052', categoryId: 'C007', name: 'Double handle with both side keys', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Both%20side%20key.jpeg?raw=true'], description: '' },
   { id: 'I0053', categoryId: 'C007', name: 'Pop up handle with key', images: [NO_IMAGE_URL], description: '' },
-  { id: 'I0054', categoryId: 'C007', name: 'Double handle with one side key - sash', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/DOUBLE%20HANDLE%20WITH%20ONE%20SIDE%20KEY%20-%20SASH.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0055', categoryId: 'C007', name: 'Dummy D handle not lockable', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/DUMMY%20D%20HANDLE.jpeg?raw=true'], description: '' },
-  { id: 'I0056', categoryId: 'C007', name: 'Dummy D handle with mesh provision', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/DUMMY%20D%20HANDLE%20WITH%20MESH%20PROVISION.jpeg?raw=true'], description: '' },
+  { id: 'I0054', categoryId: 'C007', name: 'Double handle with one side key - sash', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/DOUBLE%20HANDLE%20WITH%20ONE%20SIDE%20KEY%20-%20SASH.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0055', categoryId: 'C007', name: 'Dummy D handle not lockable', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/DUMMY%20D%20HANDLE.jpeg'], description: '' },
+  { id: 'I0056', categoryId: 'C007', name: 'Dummy D handle with mesh provision', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/DUMMY%20D%20HANDLE%20WITH%20MESH%20PROVISION.jpeg'], description: '' },
   { id: 'I0057', categoryId: 'C007', name: 'Crescent lock', images: [NO_IMAGE_URL], description: '' },
-  { id: 'I0058', categoryId: 'C007', name: 'American pulling handle - white', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/AMERICAN%20PULLING%20HANDLE.jpeg?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
-  { id: 'I0059', categoryId: 'C007', name: 'Door pulling handle C type', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/DOOR%20PULLING%20HANDLE%20C%20TYPE.jpeg?raw=true'], description: '' },
+  { id: 'I0058', categoryId: 'C007', name: 'American pulling handle - white', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/AMERICAN%20PULLING%20HANDLE.jpeg'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK' },
+  { id: 'I0059', categoryId: 'C007', name: 'Door pulling handle C type', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/DOOR%20PULLING%20HANDLE%20C%20TYPE.jpeg'], description: '' },
 
   // C008 - Tools
-  { id: 'I0060', categoryId: 'C008', name: 'Gasket mesh tool', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Gasket%20Mesh%20Tool.png?raw=true'], description: '' },
-  { id: 'I0061', categoryId: 'C008', name: 'Moon knife', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Moon%20Knife.png?raw=true'], description: '' },
-  { id: 'I0062', categoryId: 'C008', name: 'Silicone gun premium', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/SILICONE%20GUN%20PREMIUM.jpeg?raw=true'], description: '' },
-  { id: 'I0063', categoryId: 'C008', name: 'Air block gun', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Air%20Block%20Gun.png?raw=true'], description: '' },
-  { id: 'I0064', categoryId: 'C008', name: 'Digital measuring meter', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Digital%20Measuring%20Meter.png?raw=true'], description: '' },
-  { id: 'I0065', categoryId: 'C008', name: 'V cutter', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/V%20Cutter.png?raw=true'], description: '' },
-  { id: 'I0066', categoryId: 'C008', name: 'Angle cutter', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Angle%20Cutter.png?raw=true'], description: '' },
-  { id: 'I0067', categoryId: 'C008', name: 'Thermocouple', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Thermocouple.png?raw=true'], description: '' },
-  { id: 'I0068', categoryId: 'C008', name: 'Corner cleaning hand tool', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Corner%20Cleaning%20Hand%20Tool.png?raw=true'], description: '' },
-  { id: 'I0069', categoryId: 'C008', name: 'Heating plate', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Tools/Heating%20Plate.png?raw=true'], description: '' },
+  { id: 'I0060', categoryId: 'C008', name: 'Gasket mesh tool', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Gasket%20Mesh%20Tool.png'], description: '' },
+  { id: 'I0061', categoryId: 'C008', name: 'Moon knife', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Moon%20Knife.png'], description: '' },
+  { id: 'I0062', categoryId: 'C008', name: 'Silicone gun premium', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/SILICONE%20GUN%20PREMIUM.jpeg'], description: '' },
+  { id: 'I0063', categoryId: 'C008', name: 'Air block gun', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Air%20Block%20Gun.png'], description: '' },
+  { id: 'I0064', categoryId: 'C008', name: 'Digital measuring meter', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Digital%20Measuring%20Meter.png'], description: '' },
+  { id: 'I0065', categoryId: 'C008', name: 'V cutter', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/V%20Cutter.png'], description: '' },
+  { id: 'I0066', categoryId: 'C008', name: 'Angle cutter', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Angle%20Cutter.png'], description: '' },
+  { id: 'I0067', categoryId: 'C008', name: 'Thermocouple', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Thermocouple.png'], description: '' },
+  { id: 'I0068', categoryId: 'C008', name: 'Corner cleaning hand tool', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Corner%20Cleaning%20Hand%20Tool.png'], description: '' },
+  { id: 'I0069', categoryId: 'C008', name: 'Heating plate', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Tools/Heating%20Plate.png'], description: '' },
   { id: 'I0070', categoryId: 'C008', name: 'Template', images: [NO_IMAGE_URL], description: '' },
-  { id: 'I0071', categoryId: 'C008', name: 'Teflon sheet', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/TEFLON%20SHEET.jpeg?raw=true'], description: '' },
-  { id: 'I0072', categoryId: 'C008', name: 'Drill bit', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/DRILL%20BITS.jpeg?raw=true'], description: '' },
-  { id: 'I0073', categoryId: 'C008', name: 'Corner cleaning blade', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/CORNER%20CLINING%20BLADES.png?raw=true'], description: '' },
+  { id: 'I0071', categoryId: 'C008', name: 'Teflon sheet', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/TEFLON%20SHEET.jpeg'], description: '' },
+  { id: 'I0072', categoryId: 'C008', name: 'Drill bit', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/DRILL%20BITS.jpeg'], description: '' },
+  { id: 'I0073', categoryId: 'C008', name: 'Corner cleaning blade', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/CORNER%20CLINING%20BLADES.png'], description: '' },
 
   // C009 - Gaskets
-  { id: 'I0074', categoryId: 'C009', name: 'Gasket mesh tool', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Gasket%20Mesh%20Tool%20(1).png?raw=true'], description: '' },
+  { id: 'I0074', categoryId: 'C009', name: 'Gasket mesh tool', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Gasket%20Mesh%20Tool%20(1).png'], description: '' },
 
   // C0010 - Cylinders
-  { id: 'I0075', categoryId: 'C0010', name: 'Cylinder', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Cylinder%20(1).png?raw=true'], description: '' },
+  { id: 'I0075', categoryId: 'C0010', name: 'Cylinder', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Cylinder%20(1).png'], description: '' },
 
   // C0011 - Touch locks
-  { id: 'I0076', categoryId: 'C0011', name: 'Touch lock', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/Touch%20locks%20(1).png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0077', categoryId: 'C0011', name: 'LG touch lock', images: ['https://github.com/liffto/hitechupvc-new/blob/main/Assets/LG%20Touch%20Lock.png?raw=true'], description: '' },
+  { id: 'I0076', categoryId: 'C0011', name: 'Touch lock', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Touch%20locks%20(1).png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0077', categoryId: 'C0011', name: 'LG touch lock', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/LG%20Touch%20Lock.png'], description: '' },
   { id: 'I0078', categoryId: 'C0011', name: 'Touch lock slim', images: [NO_IMAGE_URL], description: '' },
 
   // C0012 - Bathroom door lock set
-  { id: 'I0079', categoryId: 'C0012', name: 'Bathroom door lock', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Bathroom%20Door%20Lock%20(2).png?raw=true'], description: 'SIZES : 25/90 & 35/90\n\nAVAILABLE COLOURS : WHITE & BLACK ' },
+  { id: 'I0079', categoryId: 'C0012', name: 'Bathroom door lock', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Bathroom%20Door%20Lock%20(2).png'], description: 'SIZES : 25/90 & 35/90\n\nAVAILABLE COLOURS : WHITE & BLACK ' },
 
   // C0013 - Friction stays 202 & 304
-  { id: 'I0080', categoryId: 'C0013', name: 'Friction stay 202 & 304', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/image%20163.png?raw=true'], description: 'FRICTION STAY 202 - 8" ( 2MM )\nFRICTION STAY 202 - 10" ( 2MM & 2.5MM )\nFRICTION STAY 202 - 12\'\' ( 2MM & 2.5MM )\nFRICTION STAY 202 - 14\'\' ( 2MM & 2.5MM )\nFRICTION STAY 202 - 16\'\' ( 2.5MM )\nFRICTION STAY 202 - 18\'\' ( 3MM )\nFRICTION STAY 202 - 20\'\' ( 3MM )\nFRICTION STAY 202 - 22\'\' ( 3MM )\n\nFRICTION STAY 304 - 10" ( 2.5MM)\nFRICTION STAY 304 - 12" ( 2.5MM)\nFRICTION STAY 304 - 14" ( 2.5MM)\nFRICTION STAY 304 - 16" ( 2.5MM)\nFRICTION STAY 304 - 18" ( 2.5 MM & 3 MM)\nFRICTION STAY 304 - 20" ( 3 MM)\nFRICTION STAY 304 - 24" ( 3 MM)' },
+  { id: 'I0080', categoryId: 'C0013', name: 'Friction stay 202 & 304', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/image%20163.png'], description: 'FRICTION STAY 202 - 8" ( 2MM )\nFRICTION STAY 202 - 10" ( 2MM & 2.5MM )\nFRICTION STAY 202 - 12\'\' ( 2MM & 2.5MM )\nFRICTION STAY 202 - 14\'\' ( 2MM & 2.5MM )\nFRICTION STAY 202 - 16\'\' ( 2.5MM )\nFRICTION STAY 202 - 18\'\' ( 3MM )\nFRICTION STAY 202 - 20\'\' ( 3MM )\nFRICTION STAY 202 - 22\'\' ( 3MM )\n\nFRICTION STAY 304 - 10" ( 2.5MM)\nFRICTION STAY 304 - 12" ( 2.5MM)\nFRICTION STAY 304 - 14" ( 2.5MM)\nFRICTION STAY 304 - 16" ( 2.5MM)\nFRICTION STAY 304 - 18" ( 2.5 MM & 3 MM)\nFRICTION STAY 304 - 20" ( 3 MM)\nFRICTION STAY 304 - 24" ( 3 MM)' },
 
   // C0014 - Hinges
-  { id: 'I0081', categoryId: 'C0014', name: '3D hinge', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/Hinges%20(1).png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0082', categoryId: 'C0014', name: '3D hinge', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/3D%20Door%20Hinge%20Eco.png?raw=true'], description: '' },
-  { id: 'I0083', categoryId: 'C0014', name: '2D hinge', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/2D%20Hinge.png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
-  { id: 'I0084', categoryId: 'C0014', name: 'Butt hinge small - 75mm', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/Butt%20Hinge%20Small%20-%2075mm.png?raw=true'], description: '' },
-  { id: 'I0085', categoryId: 'C0014', name: 'Butt hinge large - 90mm', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/Butt%20Hinge%20Large%20-%2090mm.png?raw=true'], description: '' },
+  { id: 'I0081', categoryId: 'C0014', name: '3D hinge', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/Hinges%20(1).png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0082', categoryId: 'C0014', name: '3D hinge', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/3D%20Door%20Hinge%20Eco.png'], description: '' },
+  { id: 'I0083', categoryId: 'C0014', name: '2D hinge', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/2D%20Hinge.png'], description: 'AVAILABLE COLOURS :\n\nWHITE, BLACK & BROWN' },
+  { id: 'I0084', categoryId: 'C0014', name: 'Butt hinge small - 75mm', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/Butt%20Hinge%20Small%20-%2075mm.png'], description: '' },
+  { id: 'I0085', categoryId: 'C0014', name: 'Butt hinge large - 90mm', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/Butt%20Hinge%20Large%20-%2090mm.png'], description: '' },
   { id: 'I0086', categoryId: 'C0014', name: 'Concealed hinge small - 75mm', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Concealed%20Hinges%20Small.jpg'], description: 'AVAILABLE COLOURS :\n\nWHITE & BLACK ' },
-  { id: 'I0087', categoryId: 'C0014', name: 'Concealed hinge large - 100mm', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/Concealed%20Hinge%20Large%20-%20100mm.png?raw=true'], description: 'AVAILABLE COLOURS :\n\nWHITE & BLACK ' },
-  { id: 'I0088', categoryId: 'C0014', name: 'L hinge', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/hinges/L%20Hinge.png?raw=true'], description: '' },
+  { id: 'I0087', categoryId: 'C0014', name: 'Concealed hinge large - 100mm', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/Concealed%20Hinge%20Large%20-%20100mm.png'], description: 'AVAILABLE COLOURS :\n\nWHITE & BLACK ' },
+  { id: 'I0088', categoryId: 'C0014', name: 'L hinge', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/hinges/L%20Hinge.png'], description: '' },
   { id: 'I0089', categoryId: 'C0014', name: 'Shoot bolt', images: [NO_IMAGE_URL], description: '' },
 
   // C0015 - Mortise gears
-  { id: 'I0090', categoryId: 'C0015', name: 'Mortise door set', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Multi%20point%20door%20lock%20set.jpeg?raw=true'], description: 'SIZES : 25/85 & 35/85\n\nAVAILABLE COLOURS : WHITE, BLACK & BROWN' },
+  { id: 'I0090', categoryId: 'C0015', name: 'Multi point door lock set', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Multi%20point%20door%20lock%20set.jpeg?raw=true'], description: 'Mortise door set\nSIZES : 25/85 & 35/85\n\nAVAILABLE COLOURS : WHITE, BLACK & BROWN' },
 
   // C0016 - Machines
-  { id: 'I0091', categoryId: 'C0016', name: 'Corner cleaning machine', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Corner%20Cleaning%20Machine.png?raw=true'], description: '' },
-  { id: 'I0092', categoryId: 'C0016', name: 'Internal cleaning (inner) machine', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Internal%20Cleaning%20(Inner)%20Machine.png?raw=true'], description: '' },
-  { id: 'I0093', categoryId: 'C0016', name: 'External cleaning (outer) machine', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/External%20Cleaning%20(Outer)%20Machine.png?raw=true'], description: '' },
-  { id: 'I0094', categoryId: 'C0016', name: 'Water slot hand tool 45', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Water%20Slot%20Hand%20Tool%2045.png?raw=true'], description: '' },
-  { id: 'I0095', categoryId: 'C0016', name: 'Water slot hand tool 0', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Water%20Slot%20Hand%20Tool%200.png?raw=true'], description: '' },
-  { id: 'I0096', categoryId: 'C0016', name: 'Water slot hand tool 90', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Water%20Slot%20Hand%20Tool%2090.png?raw=true'], description: '' },
-  { id: 'I0097', categoryId: 'C0016', name: 'Portable welding machine', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Portable%20Welding%20Machine.png?raw=true'], description: '' },
-  { id: 'I0098', categoryId: 'C0016', name: 'Top & bottom cleaning tool', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Top%20&%20Bottom%20Cleaning%20Tool.png?raw=true'], description: '' },
-  { id: 'I0099', categoryId: 'C0016', name: 'Interlock punching tool', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Machines/Interlock%20Punching%20Tool.png?raw=true'], description: '' },
+  { id: 'I0091', categoryId: 'C0016', name: 'Corner cleaning machine', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Corner%20Cleaning%20Machine.png'], description: '' },
+  { id: 'I0092', categoryId: 'C0016', name: 'Internal cleaning (inner) machine', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Internal%20Cleaning%20(Inner)%20Machine.png'], description: '' },
+  { id: 'I0093', categoryId: 'C0016', name: 'External cleaning (outer) machine', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/External%20Cleaning%20(Outer)%20Machine.png'], description: '' },
+  { id: 'I0094', categoryId: 'C0016', name: 'Water slot hand tool 45', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Water%20Slot%20Hand%20Tool%2045.png'], description: '' },
+  { id: 'I0095', categoryId: 'C0016', name: 'Water slot hand tool 0', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Water%20Slot%20Hand%20Tool%200.png'], description: '' },
+  { id: 'I0096', categoryId: 'C0016', name: 'Water slot hand tool 90', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Water%20Slot%20Hand%20Tool%2090.png'], description: '' },
+  { id: 'I0097', categoryId: 'C0016', name: 'Portable welding machine', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Portable%20Welding%20Machine.png'], description: '' },
+  { id: 'I0098', categoryId: 'C0016', name: 'Top & bottom cleaning tool', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Top%20&%20Bottom%20Cleaning%20Tool.png'], description: '' },
+  { id: 'I0099', categoryId: 'C0016', name: 'Interlock punching tool', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Machines/Interlock%20Punching%20Tool.png'], description: '' },
 
   // C0017 - Axis
-  { id: 'I00100', categoryId: 'C0017', name: 'Casement striker - 9mm axis', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Casement%20Striker%20-%209mm%20Axis.png?raw=true'], description: '' },
-  { id: 'I00101', categoryId: 'C0017', name: 'Casement striker - 13mm axis', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Casement%20Striker%20-%2013mm%20Axis.png?raw=true'], description: '' },
-  { id: 'I00102', categoryId: 'C0017', name: 'Casement striker - 22mm axis', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/Casement%20Striker%20-%2022mm%20Axis.png?raw=true'], description: '' },
+  { id: 'I00100', categoryId: 'C0017', name: 'Casement striker - 9mm axis', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Casement%20Striker%20-%209mm%20Axis.png'], description: '' },
+  { id: 'I00101', categoryId: 'C0017', name: 'Casement striker - 13mm axis', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Casement%20Striker%20-%2013mm%20Axis.png'], description: '' },
+  { id: 'I00102', categoryId: 'C0017', name: 'Casement striker - 22mm axis', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/Casement%20Striker%20-%2022mm%20Axis.png'], description: '' },
   { id: 'I00103', categoryId: 'C0017', name: 'Casement striker 9mm axis double (new)', images: [NO_IMAGE_URL], description: '' },
   { id: 'I00104', categoryId: 'C0017', name: 'Sliding striker', images: [NO_IMAGE_URL], description: '' },
   { id: 'I00105', categoryId: 'C0017', name: 'Sliding striker (powder coated)', images: [NO_IMAGE_URL], description: '' },
 
   // C0018 - Sliding handles
-  { id: 'I00106', categoryId: 'C0018', name: 'L-key handle', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/L-Key%20Handle.png?raw=true'], description: '' },
-  { id: 'I00107', categoryId: 'C0018', name: 'C handle', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/C%20Handle.png?raw=true'], description: '' },
-  { id: 'I00108', categoryId: 'C0018', name: 'U handle', images: ['https://github.com/liffto/hitechupvc-dev-ver/blob/main/Gallery/U%20Handle.png?raw=true'], description: 'AVAILABLE COLOURS\n\n\n BLACK ' },
+  { id: 'I00106', categoryId: 'C0018', name: 'L-key handle', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/L-Key%20Handle.png'], description: '' },
+  { id: 'I00107', categoryId: 'C0018', name: 'C handle', images: ['https://github.com/liffto/UPVCnew/blob/main/images/C%20handle%20Heading.jpeg?raw=true'], description: '' },
+  { id: 'I00108', categoryId: 'C0018', name: 'U handle', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-dev-ver/main/Gallery/U%20Handle.png'], description: 'AVAILABLE COLOURS\n\n\n BLACK ' },
   { id: 'I00109', categoryId: 'C0018', name: 'U handle with cap (white)', images: [NO_IMAGE_URL], description: 'AVAILABLE COLOURS\n\n\n BLACK ' },
 
   // C0019 - Spacer rod
   { id: 'I00110', categoryId: 'C0019', name: 'Spacer rod', images: [NO_IMAGE_URL], description: 'SPACER ROD 6MM (400MTR)\nSPACER ROD 8MM (200MTR)\nSPACER ROD 10MM (200MTR)\nSPACER ROD 12MM (200MTR)\nSPACER ROD 15MM(50MTR)\nSPACER ROD 20MM (25MTR)\nSPACER ROD 25MM(25MTR)' },
 
   // C0020 - Silicone sealants
-  { id: 'I00112', categoryId: 'C0020', name: 'Silicone sealants', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/SILICONE%20GUN%20PREMIUM.jpeg?raw=true'], description: 'HITECH SEALANT\nBOSS SILICON 352' },
+  { id: 'I00112', categoryId: 'C0020', name: 'Silicone sealants', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/SILICONE%20GUN%20PREMIUM.jpeg'], description: 'HITECH SEALANT\nBOSS SILICON 352' },
 
   // C0021 - Door stopper
   { id: 'I00113', categoryId: 'C0021', name: 'Door stopper', images: ['https://raw.githubusercontent.com/liffto/hitechupvc-new/main/Assets/Door%20Stopper.png'], description: 'AVAILABLE COLOURS :\n\nWHITE,BLACK,BROWN&SILVER ' },
@@ -275,10 +275,10 @@ export const INITIAL_PRODUCTS: Product[] = [
   { id: 'I00127', categoryId: 'C0025', name: 'Wool pile', images: [NO_IMAGE_URL], description: 'WOOL PILE 4.8 x 6\nWOOL PILE 6 x 6\nWOOL PILE 6.8X6' },
 
   // C0026 - Rollers
-  { id: 'I00128', categoryId: 'C0026', name: 'Rollers', images: ['https://github.com/kavutham99raj-art/hitechupvc/blob/main/images/Roller.png?raw=true'], description: '16MM FLAT ROLLER\n16MM GROOVED ROLLER\n12MM BALL BEARING ROLLER\n7.5MM MESH ROLLER NYLON FRAME\n7.5MM MESH ROLLER METAL FRAME\n10MM MESH ROLLER METAL FRAME\n10MM MESH ROLLER NYLON FRAME\nDOUBLE SWING FLAT ROLLER\nDOUBLE SWING GROOV ROLLER\nADJUSTABLE DOOR ROLLER\nADJUSTABLE 4 WHEEL DOOR ROLLER SS304\nADJUSTABLE DOOR ROLLER - BRASS COATED (CH)\nADJUSTABLE DOOR ROLLER - BRASS COATED (TU)' },
+  { id: 'I00128', categoryId: 'C0026', name: 'Rollers', images: ['https://raw.githubusercontent.com/kavutham99raj-art/hitechupvc/main/images/Roller.png'], description: '16MM FLAT ROLLER\n16MM GROOVED ROLLER\n12MM BALL BEARING ROLLER\n7.5MM MESH ROLLER NYLON FRAME\n7.5MM MESH ROLLER METAL FRAME\n10MM MESH ROLLER METAL FRAME\n10MM MESH ROLLER NYLON FRAME\nDOUBLE SWING FLAT ROLLER\nDOUBLE SWING GROOV ROLLER\nADJUSTABLE DOOR ROLLER\nADJUSTABLE 4 WHEEL DOOR ROLLER SS304\nADJUSTABLE DOOR ROLLER - BRASS COATED (CH)\nADJUSTABLE DOOR ROLLER - BRASS COATED (TU)' },
 
   // C0027 - Aluminium track
-  { id: 'I00129', categoryId: 'C0027', name: 'Aluminium track', images: ['https://github.com/liffto/UPVCnew/blob/main/components/Aluminium%20Rail%20full%20solid.jpeg?raw=true', 'https://github.com/liffto/UPVCnew/blob/main/components/Aluminium%20Rail%20hallow.jpeg?raw=true', 'https://github.com/liffto/UPVCnew/blob/main/components/Aluminium%20Rail%20semi%20solid.jpeg?raw=true'], description: 'Aluminium Rail HALLOW\nALUMINIUM RAIL SEMI SOLID\nAluminium Rail Full SOLID' }
+  { id: 'I00129', categoryId: 'C0027', name: 'Aluminium track', images: ['https://github.com/liffto/UPVCnew/blob/main/images/Aluminium%20Rail%20full%20solid.jpeg?raw=true', 'https://github.com/liffto/UPVCnew/blob/main/images/Aluminium%20Rail%20hallow.jpeg?raw=true', 'https://github.com/liffto/UPVCnew/blob/main/images/Aluminium%20Rail%20semi%20solid.jpeg?raw=true'], description: 'Aluminium Rail HALLOW\nALUMINIUM RAIL SEMI SOLID\nAluminium Rail Full SOLID' }
 ];
 
 export const INITIAL_CATALOGS: Catalog[] = [
